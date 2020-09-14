@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="/js/ezuikit.js"></script>
+  <script src="/js/jquery.min.js"></script>
+</head>
+<body>
+    <video id="myPlayer0"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[0].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer1"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[1].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer2"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[2].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer3"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[3].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer4"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[4].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer5"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[5].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer6"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[6].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer7"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[7].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer8"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[8].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer9"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[9].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer10"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[10].liveAddress}" type="" />
+    </video>
+    <video id="myPlayer11"  controls playsInline webkit-playsinline [autoplay]>
+        <source th:src="${data[11].liveAddress}" type="" />
+    </video>
+    <script>
+        var player = new EZUIPlayer('myPlayer0');
+        var player = new EZUIPlayer('myPlayer1');
+        var player = new EZUIPlayer('myPlayer2');
+        var player = new EZUIPlayer('myPlayer3');
+        var player = new EZUIPlayer('myPlayer4');
+        var player = new EZUIPlayer('myPlayer5');
+        var player = new EZUIPlayer('myPlayer6');
+        var player = new EZUIPlayer('myPlayer7');
+        var player = new EZUIPlayer('myPlayer8');
+        var player = new EZUIPlayer('myPlayer9');
+        var player = new EZUIPlayer('myPlayer10');
+        var player = new EZUIPlayer('myPlayer11');
+    </script>
+</body>
+</html>
